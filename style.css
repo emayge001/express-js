@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    top: -541px;
+    left: -939px;
+    border-radius: 8px;
+    color: #fff;
+  }
+
+#header {
+    background-color: #1F2235;
+    padding: 20px 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    margin-top: -23px;
+  }
+  
+  .horizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 175px;
+  }
+  
+  .navItem {
+    list-style: none;
+  
+  }
+  
+  .navItem a {
+    text-decoration: none;
+    font-family: "Poppins";
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;    padding: 10px 15px;
+  }
+  
+  .navItem a:hover {
+    color: #FF4A57;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
